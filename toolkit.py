@@ -108,7 +108,7 @@ def open_compressor_gui():
 
     # Compress Video Button
     tk.Label(buttons_frame, text="Compress Video", font=("Arial", 14), bg="#D3D3D3").grid(row=2, column=0, padx=10, pady=10)
-    tk.Button(buttons_frame, text="Start", bg="#00FF00", fg="black", **btn_style, command=compress_video).grid(row=2, column=1, padx=10, pady=10)
+    tk.Button(buttons_frame, text="In progress", bg="#00FF00", fg="black", **btn_style, state="disabled").grid(row=2, column=1, padx=10, pady=10)
 
     footer_label = tk.Label(frame, text="© JJ | Officium.Inc", font=("Arial", 10), bg="#D3D3D3")
     footer_label.pack(side="bottom", pady=10)
