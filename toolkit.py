@@ -81,7 +81,7 @@ def open_compressor_gui():
     compressor_window = tk.Toplevel(root)
     compressor_window.title("File Compressor")
     compressor_window.geometry("600x400")
-    compressor_window.configure(bg="#2B2B2B")  # Dark background
+    compressor_window.configure(bg="#D3D3D3")  
 
     frame = tk.Frame(compressor_window, bg="#D3D3D3", width=550, height=350)
     frame.place(relx=0.5, rely=0.5, anchor="center")
@@ -117,7 +117,7 @@ def open_compressor_gui():
 root = tk.Tk()
 root.title("Officium Toolkit")
 root.geometry("600x400")
-root.configure(bg="#D3D3D3")  # Dark background
+root.configure(bg="#D3D3D3")  
 
 # Inner Frame
 frame = tk.Frame(root, bg="#D3D3D3", width=550, height=350)
